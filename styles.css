@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif
+}
+
+body {
+    background: #e6dada;
+}
+
+.main-header {
+    background-color: pink;
+    /* Header background color */
+    color: #fff;
+    /* Text color */
+    padding: 20px;
+    /* Padding around header content */
+    text-align: center;
+    /* Center align header text */
+}
+
+h1 {
+    padding: 10px;
+    color: red;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+    /* Add spacing between navigation items */
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: red;
+}
+
+section {
+    max-width: 800px; /* Set a maximum width for the content sections */
+    margin: 60px auto; /* Center the sections on the page */
+    padding: 40px; /* Add padding to the sections */
+    background-color: #fff; /* Section background color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  }
+
+  .image-section {
+    text-align: center; /* Center align the image */
+    margin-top: 20px; /* Add margin space at the top */
+  }
+
+
+  img {
+    width: 100%; /* Make the image responsive, filling its container */
+    max-width: 400px; /* Set a maximum width to avoid overly large images */
+    height: auto; /* Maintain aspect ratio */
+    border: 2px solid #333; /* Add a border around the image */
+    border-radius: 8px; /* Add border-radius for rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  }
